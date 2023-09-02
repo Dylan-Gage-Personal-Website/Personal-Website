@@ -1,0 +1,19 @@
+div {
+  width: 900px;
+  min-height: 86vh;
+  margin: auto;
+  background-color: #ad82aa;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
