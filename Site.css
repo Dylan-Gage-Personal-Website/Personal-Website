@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+html {
+  background-color: #6d8f92;
+}
+
+header {
+  background-color: #8f926d;
+  height: 75px;
+  position: sticky;
+  top: 0;
+  border-bottom: solid 1px black;
+}
+
+footer {
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #8f926d;
+  height: 50px;
+  border-top: 1px solid black;
+}
+
+.headerLinks,
+a {
+  text-align: center;
+  float: center;
+  font-size: 30px;
+  color: rgb(80, 0, 0);
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 2px solid #3d3d3d;
+}
+
+.headerLinks a:hover {
+  text-shadow: white 1px 0 10px;
+}
+
+.headerName {
+  text-align: center;
+  color: black;
+  float: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-style: oblique;
+}
