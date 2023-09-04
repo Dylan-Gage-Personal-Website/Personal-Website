@@ -13,7 +13,7 @@ const portfolio =
 // These "if Statements" will check to see what is in the url.
 // Then they will output a console log with ONE of the three appropriately named variables above according to whats in the URL.
 
-if (document.URL.includes("Index.html")) {
+if (document.URL.includes("index.html")) {
   console.log(index);
 }
 
