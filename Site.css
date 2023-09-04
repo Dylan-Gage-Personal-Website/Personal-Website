@@ -1,3 +1,6 @@
+/* This css is for global stuff effecting the entire website */
+
+/* This affects everything on the website */
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -7,6 +10,7 @@ html {
   background-color: #6d8f92;
 }
 
+/* The "position: sticky;" + "top: 0;" lines is what makes the header persistent.*/
 header {
   background-color: #8f926d;
   height: 75px;
@@ -15,12 +19,11 @@ header {
   border-bottom: solid 1px black;
 }
 
+/* The "position: sticky;" + "bottom: 0;" lines is what makes the footer persistent.*/
 footer {
   padding: 30px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  right: 0;
-  left: 0;
   background-color: #8f926d;
   height: 50px;
   border-top: 1px solid black;
@@ -29,16 +32,17 @@ footer {
 .headerLinks,
 a {
   text-align: center;
-  float: center;
   font-size: 30px;
   color: rgb(80, 0, 0);
   text-decoration: none;
 }
 
+/* This make the page you are on have a underscore below the link.*/
 .active {
   border-bottom: 2px solid #3d3d3d;
 }
 
+/* This is what makes the glow affect when you are highlighting the links */
 .headerLinks a:hover {
   text-shadow: white 1px 0 10px;
 }
@@ -46,7 +50,6 @@ a {
 .headerName {
   text-align: center;
   color: black;
-  float: center;
   text-decoration: none;
   font-size: 30px;
   font-style: oblique;
