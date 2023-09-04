@@ -18,3 +18,9 @@ h2 {
   text-align: center;
   margin-top: 50px;
 }
+
+p {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
