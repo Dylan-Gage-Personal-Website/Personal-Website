@@ -1,6 +1,6 @@
 div {
   width: 900px;
-  min-height: 86vh;
+  min-height: 100vh;
   margin: auto;
   background-color: #ad82aa;
   border-left: 1px solid black;
@@ -8,6 +8,7 @@ div {
 }
 
 h1 {
+  font-size: 50px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   text-align: center;
