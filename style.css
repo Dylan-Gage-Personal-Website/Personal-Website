@@ -29,6 +29,33 @@ footer {
   border-top: 1px solid black;
 }
 
+section {
+  height: 450px;
+  border-bottom: 1px black solid;
+}
+
+p {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div {
+  width: 900px;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #ad82aa;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+img {
+  margin-left: 349px;
+  margin-right: 349px;
+  border: solid black 1px;
+  height: 200px;
+}
+
 .headerLinks,
 a {
   text-align: center;
@@ -53,4 +80,31 @@ a {
   text-decoration: none;
   font-size: 30px;
   font-style: oblique;
+}
+
+.indexh1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.indexh2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* This is the h1 element for the about and portfolio page. */
+.notindexh1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 45px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+}
+
+/* This is the h2 element for the about and portfolio page. */
+.notindexh2 {
+  text-align: center;
+  font-size: 30px;
 }
