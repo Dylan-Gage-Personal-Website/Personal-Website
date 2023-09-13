@@ -63,6 +63,7 @@ a {
   font-size: 30px;
   color: rgb(80, 0, 0);
   text-decoration: none;
+  padding: 0 4px 0 4px;
 }
 
 /* This make the page you are on have a underscore below the link. */
