@@ -9,6 +9,8 @@ const index = `Welcome to my website. You can learn about me and what i've made 
 const about = "Welcome to my About page, you can learn about me here.";
 const portfolio =
   "Welcome to my portfolio, you can see what i've created here.";
+const contact =
+  "Welcome to my contact page, here you can communicate to me about your inquiry.";
 
 // These "if Statements" will check to see what is in the url.
 // Then they will output a console log with ONE of the three appropriately named variables above according to whats in the URL.
@@ -23,6 +25,10 @@ if (document.URL.includes("About.html")) {
 
 if (document.URL.includes("Portfolio.html")) {
   console.log(portfolio);
+}
+
+if (document.URL.includes("contact.html")) {
+  console.log(contact);
 }
 
 // This function will redirect you to the home page when called
