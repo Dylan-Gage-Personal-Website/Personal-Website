@@ -24,3 +24,13 @@ if (document.URL.includes("About.html")) {
 if (document.URL.includes("Portfolio.html")) {
   console.log(portfolio);
 }
+
+// This function will redirect you to the home page when called
+function redirectHomePage() {
+  window.location.href = "./index.html";
+}
+
+// After 5 seconds this will run the above function redirecting you to the home page.
+if (document.URL.includes("submitsuccessful")) {
+  setTimeout(redirectHomePage, 5000);
+}
