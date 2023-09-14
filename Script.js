@@ -1,6 +1,6 @@
 // This console log is for the workshop requirement.
 
-console.log("Hello World");
+console.log("Hello World.");
 
 // These Varables below are for the "if Statements" further down.
 // They are meant to correspond to each page you can visit.
